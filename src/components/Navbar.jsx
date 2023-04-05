@@ -1,8 +1,12 @@
-import React from "react";
+import React ,{useLayoutEffect, useRef,useState,useEffect} from "react";
 import "bootstrap/js/src/collapse.js";
 
 import { HashLink as Link } from "react-router-hash-link";
-export default function Navbar() {
+export default function Navbar(activeSection) {
+	 activeSection=activeSection.activeSection;
+
+	 
+	
   return (
     <nav
       id="navbar"
@@ -30,18 +34,18 @@ export default function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <Link className="nav-link py-3" to="#portfolio">
+                <li className={activeSection === 'portfolio' ? ' nav-item active activeStyle' : 'nav-item'} >
+                  <Link className="nav-link py-3 " to="#portfolio">
                     Portfolio
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link py-3" to="#about">
+                <li className={ activeSection === 'about' ? ' nav-item  active  activeStyle' : 'nav-item'}>
+                  <Link className="nav-link py-3 " to="#about">
                     About
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link py-3" to="#contact">
+                <li className={activeSection === 'contact' ? 'active nav-item activeStyle' : ' nav-item'} >
+                  <Link className="nav-link py-3 "  to="#contact">
                     Contact
                   </Link>
                 </li>

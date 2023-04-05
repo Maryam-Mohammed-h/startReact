@@ -9,14 +9,18 @@ function App() {
       element: <Layout />,
       children: [
         // {path:'portfolio',element:<Portfolio/>},
-        { path: "*", element: <ErrorPage /> },
+        
       ],
     },
     { path: "*", element: <ErrorPage /> },
   ]);
+
+	 
   return (
-    <div className="App">
+    <div className="App" >
+	 
       <RouterProvider router={routes} />
+	 
     </div>
   );
 }

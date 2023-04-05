@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className=" text-white py-3" id="about">
+    <div className=" text-white py-3" id="about" data-section>
       <div className="container pt-4">
         <div className="websiteTitle homeTitle">
           <h2 className="text-uppercase mb-0">About</h2>

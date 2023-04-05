@@ -1,13 +1,16 @@
-import React from "react";
+import React  from "react";
 
 export default function Contact() {
+
   return (
-    <div className=" text-white " id="contact">
+    <div className=" text-white " id="contact"   data-section>
       <div className="container py-4">
         <div className="websiteTitle websiteTitleDark">
           <h2 className="text-uppercase mb-0">CONTACT US</h2>
-        </div>
-        <div className="dividerParent  my-3">
+		
+
+		 </div>
+        <div className="dividerParent  my-3" >
           <div className="row justify-content-center ">
             <div className=" divider-line divider-line-dark"></div>
             <div className="divider-icon divider-icon-dark">

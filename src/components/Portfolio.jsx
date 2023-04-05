@@ -7,8 +7,9 @@ import safe from "../assets/images/safe.png";
 import submarine from "../assets/images/submarine.png";
 
 export default function Portfolio() {
+	
   return (
-    <div id="portfolio">
+    <div id="portfolio" data-section>
       <div className="container pt-4">
         <div className="websiteTitle websiteTitleDark">
           <h2 className="text-uppercase mb-0">Portfolio</h2>
