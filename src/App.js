@@ -5,12 +5,8 @@ import ErrorPage from "./components/ErrorPage";
 function App() {
   const routes = createBrowserRouter([
     {
-      path: "",
+      path: "startReact",
       element: <Layout />,
-      children: [
-        // {path:'portfolio',element:<Portfolio/>},
-        
-      ],
     },
     { path: "*", element: <ErrorPage /> },
   ]);
