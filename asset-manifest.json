@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/startReact/static/css/main.0c177661.css",
-    "main.js": "/startReact/static/js/main.94ae1968.js",
+    "main.css": "/startReact/static/css/main.0ee497d3.css",
+    "main.js": "/startReact/static/js/main.3ac2747d.js",
     "static/js/787.305c4690.chunk.js": "/startReact/static/js/787.305c4690.chunk.js",
     "static/media/fa-solid-900.ttf": "/startReact/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/fa-brands-400.ttf": "/startReact/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
@@ -19,12 +19,12 @@
     "static/media/fa-v4compatibility.ttf": "/startReact/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
     "static/media/fa-v4compatibility.woff2": "/startReact/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/startReact/index.html",
-    "main.0c177661.css.map": "/startReact/static/css/main.0c177661.css.map",
-    "main.94ae1968.js.map": "/startReact/static/js/main.94ae1968.js.map",
+    "main.0ee497d3.css.map": "/startReact/static/css/main.0ee497d3.css.map",
+    "main.3ac2747d.js.map": "/startReact/static/js/main.3ac2747d.js.map",
     "787.305c4690.chunk.js.map": "/startReact/static/js/787.305c4690.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c177661.css",
-    "static/js/main.94ae1968.js"
+    "static/css/main.0ee497d3.css",
+    "static/js/main.3ac2747d.js"
   ]
 }
